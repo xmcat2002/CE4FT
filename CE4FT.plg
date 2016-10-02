@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CE4FT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/CE4FT.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My\C\CE4FT\4WayControl.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CE4FT.pdb" /debug /machine:I386 /out:"Debug/CE4FT.exe" /pdbtype:sept 
+.\Debug\4WayControl.obj
+.\Debug\panel.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp"
+<h3>Output Window</h3>
+Compiling...
+4WayControl.c
+D:\My\C\CE4FT\4WayControl.c(47) : warning C4101: 'ret' : unreferenced local variable
+D:\My\C\CE4FT\4WayControl.c(253) : warning C4028: formal parameter 1 different from declaration
+D:\My\C\CE4FT\4WayControl.c(55) : warning C4700: local variable 'hAccel' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+CE4FT.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,288 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CE4FT DIALOGEX 0, 0, 510, 376
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CE4FT"
+FONT 10, "System"
+BEGIN
+    CTEXT           "FOUR WAVELENGTH TRANSMITER CONFIGURATION",IDC_STATIC,
+                    121,14,209,11
+    CTEXT           "LD TEMP",IDC_STATIC,44,30,31,8
+    CTEXT           "OPT PWR",IDC_STATIC,89,30,31,8
+    CTEXT           "EML",IDC_STATIC,133,30,31,8
+    CTEXT           "CTB1",IDC_STATIC,177,30,31,8
+    CTEXT           "CTB2",IDC_STATIC,224,30,25,8
+    CTEXT           "CSO",IDC_STATIC,268,30,23,8
+    CTEXT           "1:",IDC_STATIC,15,67,19,27
+    CTEXT           "3:",IDC_STATIC,15,224,19,27
+    CTEXT           "4:",IDC_STATIC,15,305,19,27
+    CTEXT           "2:",IDC_STATIC,15,148,19,27
+    CONTROL         "Slider1",1,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,49,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",2,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,93,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",3,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,137,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",4,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,181,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",5,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,225,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",6,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | 
+                    TBS_TOP | WS_TABSTOP,269,41,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",41,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,49,121,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",42,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,93,121,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",82,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,93,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",44,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,181,121,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",45,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,225,121,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",46,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,269,120,20,54,WS_EX_STATICEDGE
+    CONTROL         "Slider1",81,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,49,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",83,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,137,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",43,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,137,121,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",84,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,181,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",85,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,225,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",86,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,269,201,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",121,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,49,281,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",122,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,93,281,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",123,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,137,281,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",124,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,181,281,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",125,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,225,281,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",126,"msctls_trackbar32",TBS_VERT | TBS_TOP | 
+                    WS_TABSTOP,269,281,20,54,WS_EX_DLGMODALFRAME
+    EDITTEXT        11,49,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",21,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,78,94,8,
+                    12
+    EDITTEXT        12,93,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",22,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,123,94,8,
+                    12
+    EDITTEXT        13,137,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",23,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,166,94,8,
+                    12
+    EDITTEXT        14,181,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",24,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,210,94,8,
+                    12
+    EDITTEXT        15,225,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",25,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,254,94,8,
+                    12
+    EDITTEXT        16,269,94,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",26,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,298,94,8,
+                    12
+    EDITTEXT        51,49,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",61,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,78,174,8,
+                    12
+    EDITTEXT        52,93,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",62,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,122,174,8,
+                    12
+    EDITTEXT        53,137,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",63,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,166,174,8,
+                    12
+    EDITTEXT        54,181,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",64,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,210,174,8,
+                    12
+    EDITTEXT        55,225,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",65,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,254,174,8,
+                    12
+    EDITTEXT        56,269,174,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",66,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,298,174,8,
+                    12
+    EDITTEXT        91,49,255,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",101,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,78,255,8,
+                    12
+    EDITTEXT        92,93,255,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",102,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,122,255,8,
+                    12
+    EDITTEXT        93,137,255,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",103,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,166,255,8,
+                    12
+    EDITTEXT        94,181,254,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",104,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,210,254,8,
+                    12
+    EDITTEXT        95,225,255,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",105,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,254,255,8,
+                    12
+    EDITTEXT        96,269,255,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",106,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,298,255,8,
+                    12
+    EDITTEXT        131,49,334,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",141,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,79,334,8,
+                    12
+    EDITTEXT        132,93,335,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",142,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,123,335,8,
+                    12
+    EDITTEXT        133,137,335,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",143,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,166,335,8,
+                    12
+    EDITTEXT        134,181,334,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",144,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,210,334,8,
+                    12
+    EDITTEXT        135,225,334,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",145,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,254,334,8,
+                    12
+    EDITTEXT        136,269,335,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",146,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,298,335,8,
+                    12
+    PUSHBUTTON      "S",31,69,80,9,14
+    PUSHBUTTON      "S",32,113,80,9,14
+    PUSHBUTTON      "S",33,157,80,9,14
+    PUSHBUTTON      "S",34,201,80,9,14
+    PUSHBUTTON      "S",35,245,80,9,14
+    PUSHBUTTON      "S",36,289,80,9,14
+    PUSHBUTTON      "S",71,69,160,9,14
+    PUSHBUTTON      "S",72,113,160,9,14
+    PUSHBUTTON      "S",73,157,160,9,14
+    PUSHBUTTON      "S",74,201,160,9,14
+    PUSHBUTTON      "S",75,245,160,9,14
+    PUSHBUTTON      "S",76,289,160,9,14
+    PUSHBUTTON      "S",111,69,241,9,14
+    PUSHBUTTON      "s",112,113,241,9,14
+    PUSHBUTTON      "S",113,157,241,9,14
+    PUSHBUTTON      "S",114,201,240,9,14
+    PUSHBUTTON      "S",115,245,241,9,14
+    PUSHBUTTON      "S",116,289,241,9,14
+    PUSHBUTTON      "S",151,69,320,9,14
+    PUSHBUTTON      "S",152,112,321,9,14
+    PUSHBUTTON      "S",153,157,321,9,14
+    PUSHBUTTON      "S",154,201,320,9,14
+    PUSHBUTTON      "S",155,245,320,9,14
+    PUSHBUTTON      "S",156,289,321,9,14
+    CONTROL         "Slider1",IDC_SLIDER25,"msctls_trackbar32",TBS_VERT | 
+                    TBS_TOP | WS_TABSTOP,340,40,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",IDC_SLIDER26,"msctls_trackbar32",TBS_VERT | 
+                    TBS_TOP | WS_TABSTOP,340,119,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",IDC_SLIDER27,"msctls_trackbar32",TBS_VERT | 
+                    TBS_TOP | WS_TABSTOP,340,200,20,54,WS_EX_DLGMODALFRAME
+    CONTROL         "Slider1",IDC_SLIDER28,"msctls_trackbar32",TBS_VERT | 
+                    TBS_TOP | WS_TABSTOP,340,280,20,54,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT26,340,93,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN26,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,369,93,8,12
+    EDITTEXT        IDC_EDIT27,340,173,30,12,ES_CENTER
+    CONTROL         "Spin2",IDC_SPIN27,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,369,174,8,12
+    EDITTEXT        IDC_EDIT28,340,254,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN28,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,369,254,8,12
+    EDITTEXT        IDC_EDIT29,340,334,30,12,ES_CENTER | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN29,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,369,334,8,12
+    CTEXT           "ATT",IDC_STATIC,344,29,13,9
+    COMBOBOX        IDC_COMBO1,370,4,37,13,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "DisConnect",IDC_BTN_CONNECT,411,3,43,14
+    CTEXT           "TestER",IDC_STATIC,458,6,49,9
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,332,27,56,322,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,41,26,271,324,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Refresh",IDC_BTN_REFRESH,411,19,43,14
+    EDITTEXT        IDC_EDIT1,419,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,425,121,40,14,ES_AUTOHSCROLL
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
