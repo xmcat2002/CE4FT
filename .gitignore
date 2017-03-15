@@ -39,4 +39,11 @@
 Debug/
 
 #Visual studio
+*.dep
+*.dsp
+*.dsw
+*.mak
 *.ncb
+*.opt
+*.plg
+
